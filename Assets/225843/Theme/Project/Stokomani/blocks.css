@@ -1,0 +1,250 @@
+.star-rating {
+  font-size: 1em;
+  vertical-align: middle;
+}
+
+.review-distribution .progress {
+  min-width: 60px;
+}
+
+.list-reviews article.panel {
+  margin-bottom: 20px;
+}
+
+.process-menu.affix {
+  top: 15px;
+}
+
+.process-menu.affix-bottom {
+  position: relative;
+  bottom: 0;
+}
+
+@media (max-width: 768px) {
+
+  .process-menu.affix,
+  .process-menu.affix-bottom {
+    position: static;
+  }
+}
+
+.process-top-menu {
+  z-index: 999;
+  top: 0;
+}
+
+.process-top-menu>.row {
+  padding: 0 15px;
+}
+
+.process-top-menu>.row>.col-sm-12 {
+  background: white;
+  text-align: center;
+  margin: 0 -15px;
+}
+
+.btn-login-social .social-pictogram {
+  max-width: 24px;
+  margin-right: 5px;
+}
+
+#trackers-ask-consent-gdpr.container {
+  width: 100%;
+}
+
+.tracker .flex-centered,
+.tracker.flex-centered {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+
+.tracker .just1em {
+  width: 1em;
+  height: 1em;
+}
+
+.tracker .td-coche {
+  width: 7em;
+}
+
+.tracker td.unset-nowrap {
+  white-space: unset !important;
+}
+
+@media screen and (orientation: portrait),
+screen and (max-width: 800px) {
+  #trackers-ask-consent-gdpr {
+    display: block;
+  }
+}
+
+.scrolling-text {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+.position {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  min-height: 50px;
+  width: 150px;
+  font-size: 25px;
+  color: white;
+  background-color: red;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.bandeau {
+  width: 100%;
+  overflow: hidden;
+  min-height: 50px;
+  padding-left: 100%;
+  margin-left: 0;
+}
+
+.actu {
+  display: inline-block;
+  min-height: 50px;
+  line-height: 50px;
+  white-space: nowrap;
+  padding-right: 100%;
+  backface-visibility: hidden;
+  perspective: initial;
+  -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -o-animation-play-state: running;
+  animation-play-state: running;
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-animation: actu linear infinite;
+  -moz-animation: actu linear infinite;
+  -o-animation: actu linear infinite;
+  animation: actu linear infinite;
+}
+
+.actu_titre {
+  display: inline-table;
+  padding: 0 25px;
+  font-size: 25px;
+  color: white;
+  font-family: "MuseoSansCyrl500";
+}
+
+.actu_titre a {
+  color: #12a09b;
+  font-family: "MuseosansCyrl900";
+}
+
+@-webkit-keyframes actu {
+  0% {
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    visibility: visible;
+  }
+
+  100% {
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+@-moz-keyframes actu {
+  0% {
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    visibility: visible;
+  }
+
+  100% {
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+@-ms-keyframes actu {
+  0% {
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    visibility: visible;
+  }
+
+  100% {
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes actu {
+  0% {
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+.zto-product-atout {
+  color: #000000;
+  font-family: MuseoSansCyrl700;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 16px;
+  text-align: left;
+  width: 100%;
+}
+
+.picto-box {
+  background-color: #ffba4d;
+  width: 32px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 17px;
+}
+
+.atout-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+@media (max-width: 600px) {
+  .atout-container {
+    margin-bottom: 10px;
+  }
+}
+
+div[data-name="Project_Moduleinstagram_Blockinstagram"] {}
